@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Contact Page</title>
+</head>
+
+<body>
+
+
+    <h1>Who are you?</h1>
+
+    <h2>Tell us a bit about yourself</h2>
+
+    <p>Fill out and submit the form below:</p>
+
+    <form action="index1.html">
+        <label for="fname">First Name:</label><br>
+        <input type="text" name="fname" id="fname" required placeholder="First Name"><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" name="fname" id="fname" required placeholder="Last Name"><br><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" name="email" id="email" required placeholder="Email"><br><br>
+        <label for="freeform">Briefly describe yourself:</label><br>
+        <textarea name="freeform" id="freeform" cols="30" rows="10" placeholder="Enter text here..."></textarea><br><br>
+
+
+        <label for="colors">Choose a <span style="color: red;">C</span><span style="color: blue;">O</span><span
+                style="color: black;">L</span><span style="color: aqua;">O</span><span
+                style="color: blueviolet;">R</span><span style="color: orange;">:</span></label><br>
+
+        <select name="colors" id="colors">
+            <option style="display: none;">-- select an option --</option>
+            <option value="Red">Red</option>
+            <option value="Black">Black</option>
+            <option value="Blue">Blue</option>
+            <option value="Orange">Orange</option>
+            <option value="Gray">Gray</option>
+            <input type="submit" value="submit" required>
+        </select>
+    </form>
+
+</body>
+
+</html>
