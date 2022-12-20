@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../Images/logistics.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  font-family: Raleway, sans-serif;
+}
+
+/* Header */
+
+h1 {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.top-navigation-links-right a {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: aliceblue;
+  margin: 0px 15px 10px 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Welcome Text */
+
+.welcome-text {
+  display: flex;
+  text-align: center;
+  width: 1050px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.welcome-text:hover {
+  background-color: black;
+}
+
+.sub-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img {
+  max-width: 300px;
+  height: 250px;
+  margin: 140px 10px 10px 10px;
+  border: 1px solid black;
+}
+
+/* First Image */
+
+.card1 {
+  position: relative;
+  /* width: 200px; */
+  /* height: 200px; */
+  float: left;
+  margin-right: 10px;
+}
+
+.card1 div {
+  position: absolute;
+  background: black;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card1:hover {
+  cursor: pointer;
+}
+
+.card1:hover div {
+  width: 300px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+  transition: 1s;
+  margin-left: 10px;
+}
+
+/* Second Image */
+
+.card2 {
+  position: relative;
+  /* width: 200px; */
+  /* height: 200px; */
+  float: left;
+  margin-right: 10px;
+}
+
+.card2 div {
+  position: absolute;
+  background: black;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card2:hover {
+  cursor: pointer;
+}
+
+.card2:hover div {
+  width: 300px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+  transition: 1s;
+  margin-left: 10px;
+}
+
+/* Third Image */
+
+.card3 {
+  position: relative;
+  /* width: 200px; */
+  /* height: 200px; */
+  float: left;
+  margin-right: 10px;
+}
+
+.card3 div {
+  position: absolute;
+  background: black;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card3:hover {
+  cursor: pointer;
+}
+
+.card3:hover div {
+  width: 300px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+  transition: 1s;
+  margin-left: 10px;
+}
+
+button {
+  cursor: pointer;
+}

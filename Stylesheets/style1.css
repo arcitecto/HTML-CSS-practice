@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 10px 0 0 15px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../Images/logistics1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: yellow;
+  font-weight: bolder;
+}
